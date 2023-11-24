@@ -122,10 +122,15 @@ legend{
     font-size: 1.3em;
 }
 form{
-    display: grid;
+display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
     gap:0;
+    margin-left: 50%;
+    max-width: 100%;
+    margin-right:50%;
+    position:absolute;
+    right:-50%;
 }
 #title {
 	height:0;
